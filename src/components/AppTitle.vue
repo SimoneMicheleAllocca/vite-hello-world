@@ -1,13 +1,25 @@
 <script> 
-export default{
+export default{ 
+    data () {
+        return {
+
+        }
+    }
 
 }
 </script>
 <template>
-   
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="./components/index.html">
+   <div class="banner">
+    <h2>Titolo</h2>
+   </div>
 </template>
 <style> 
-
+.banner {
+    height: 60vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 </style>
